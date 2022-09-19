@@ -1,7 +1,7 @@
 package Lesson1DZ;
 
 public class Dentist implements Doctor{
-    @Override
+    @Override 
     public void cabinet() {
         System.out.println("cabinet number 200");
     }
