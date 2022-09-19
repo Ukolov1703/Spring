@@ -9,7 +9,7 @@ public class AppConfig {
     @Bean(name = "doctor")
     public Doctor doctor(){
         return new Therapist();
-    }
+    } 
 
     @Bean(name = "registry")
     public Registry registry(Doctor doctor){
