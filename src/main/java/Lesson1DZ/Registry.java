@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Registry {
     private Doctor doctor;
 
-    public Doctor getDoctor(){
+    public Doctor getDoctor(){ 
         return doctor;
     }
 
